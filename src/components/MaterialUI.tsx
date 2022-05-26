@@ -117,6 +117,33 @@ const MaterialUI: React.FC = () => {
       >
         TEST BUTTON
       </Button>
+
+      <Grid
+        container
+        spacing={1}
+        direction="column"
+        justifyContent="center"
+        alignItems="flex-end"
+      >
+        <Grid item xs={1}>
+          <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+        <Grid item xs={1}>
+          <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+        <Grid item xs={1}>
+          <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={1}>
+        <Grid item xs={12}>
+          <Paper className={classes.paperStyle2}>
+            Flexbox <br />
+            https://mui.com/material-ui/react-grid/#main-content
+          </Paper>
+        </Grid>
+      </Grid>
     </div>
   );
 };
