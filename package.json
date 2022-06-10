@@ -1,6 +1,10 @@
 {
   "name": "chart_lesson",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
