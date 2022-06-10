@@ -142,7 +142,6 @@ const MaterialUI: React.FC = () => {
           </Paper>
         </Grid>
       </Grid>
-
       <Grid container spacing={3} direction="column">
         <Grid item xs={12} container>
           <Grid item xs={2}>
