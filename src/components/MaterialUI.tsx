@@ -1,5 +1,7 @@
 import React from "react";
 import { Button, makeStyles, Typography, Grid, Paper } from "@material-ui/core";
+import Title from "./atoms/Title";
+import OrangeCard from "./atoms/OrangeCard";
 
 const useStyles = makeStyles({
   btnStyle: {
@@ -25,23 +27,11 @@ const MaterialUI: React.FC = () => {
 
   return (
     <div>
-      <Typography
-        className={classes.typoStyle}
-        color="secondary"
-        variant="h1"
-        align="left"
-        gutterBottom
-        noWrap
-      >
-        Hello UIHello UIHello UIHello UIHello UIHello UI
-      </Typography>
+      <Title />
 
       <Grid container spacing={1}>
-        <Grid item xs={12}>
-          <Paper className={classes.paperStyle}>
-            xs=12 (0pxより大きい時は)
-          </Paper>
-        </Grid>
+        <OrangeCard />
+
         <Grid item xs={6}>
           <Paper className={classes.paperStyle}>xs=6 (0pxより大きい時は)</Paper>
         </Grid>
