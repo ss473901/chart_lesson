@@ -9,7 +9,7 @@ const data = {
       backgroundColor: "#20b2aa",
       borderColor: "transparent",
       hoverBackgroundColor: "#5f9ea0",
-      data: [5, 6, 9, 15, 30, 40, 80],
+      data: [7, 6, 9, 15, 30, 40, 80],
     },
   ],
 };
